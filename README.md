@@ -18,6 +18,7 @@ Está construida sobre `template-diapositivas`, pero añade un sistema visual es
 - `index.html`: ejemplos de layouts y configuración de Reveal.js.
 - `style.css`: tokens visuales y componentes AEPD.
 - `speaker-gallery.js`: galería de todas las diapositivas en Speaker View.
+- `assets/`: recursos visuales locales, incluido el logotipo AEPD.
 - `vendor/reveal/`: Reveal.js 6.0.1 y plugin de notas.
 - `REGRESSIONS.md`: fallos reales que no deben repetirse.
 
@@ -79,7 +80,7 @@ Los media queries de accesibilidad como `prefers-reduced-motion` sí son válido
 
 Los colores están definidos como variables CSS al principio de `style.css`. Evita introducir colores sueltos si ya existe un token equivalente.
 
-El logotipo se carga desde la URL oficial que ya utiliza la presentación de referencia. Si se dispone de un fichero institucional aprobado para distribución dentro del repositorio, puede sustituirse por un asset local sin cambiar el layout.
+El logotipo AEPD se sirve localmente desde `assets/aepd-logo.png`, de modo que la presentación no depende de la web de AEPD durante su ejecución. Mantén el fichero sin modificaciones visuales y conserva la misma ruta en los decks derivados.
 
 ## Antes de simplificar
 
