@@ -80,7 +80,7 @@ Los media queries de accesibilidad como `prefers-reduced-motion` sí son válido
 
 Los colores están definidos como variables CSS al principio de `style.css`. Evita introducir colores sueltos si ya existe un token equivalente.
 
-El logotipo AEPD se sirve localmente desde `assets/aepd-logo.png`, de modo que la presentación no depende de la web de AEPD durante su ejecución. Mantén el fichero sin modificaciones visuales y conserva la misma ruta en los decks derivados.
+El logotipo AEPD se sirve localmente desde `assets/aepd-logo.svg`, usando el fichero proporcionado para la plantilla. La presentación no depende de la web de AEPD durante su ejecución. Mantén este fichero sin modificaciones visuales y conserva la misma ruta en los decks derivados.
 
 ## Antes de simplificar
 
