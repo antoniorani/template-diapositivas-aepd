@@ -85,3 +85,17 @@ El logotipo AEPD se sirve localmente desde `assets/aepd-logo.svg`, usando el fic
 ## Antes de simplificar
 
 Consulta `REGRESSIONS.md`. Un despliegue de GitHub Pages correcto no garantiza que la presentación funcione en navegador: cualquier cambio en scripts, CSS, plugins o rutas críticas debe validarse también abriendo la URL publicada.
+
+## Relación con el motor y las presentaciones derivadas
+
+Esta plantilla es una **copia autocontenida** del motor de `template-diapositivas` más el sistema visual AEPD. No existe una dependencia en tiempo de ejecución entre ambos repositorios.
+
+Política de actualización:
+
+1. Las mejoras del motor común —Reveal.js, configuración base, Speaker View, galería o reglas de renderizado— se evalúan primero en `template-diapositivas`.
+2. Cuando una mejora del motor sea útil para AEPD, se incorpora aquí de forma deliberada y se valida de nuevo.
+3. La identidad visual AEPD —paleta, logo, márgenes, tipografía y layouts— evoluciona en este repositorio.
+4. Las nuevas presentaciones AEPD se crean a partir de esta plantilla y quedan como **instantáneas autocontenidas**.
+5. Las presentaciones ya creadas no se sincronizan automáticamente con esta plantilla. Solo se trasladan cambios cuando exista una necesidad concreta, especialmente correcciones importantes o de fiabilidad.
+
+No uses submódulos, CDN ni paquetes remotos únicamente para compartir estos archivos. La pequeña duplicación del motor es intencionada: prioriza que cada presentación pueda ejecutarse por sí sola.
