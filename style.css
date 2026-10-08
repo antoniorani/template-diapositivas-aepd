@@ -638,15 +638,6 @@ body {
   color: var(--red);
 }
 
-.reveal .slide-number {
-  right: 34px;
-  bottom: 25px;
-  background: transparent;
-  color: rgba(31, 61, 99, 0.42);
-  font-size: 12px;
-  font-weight: 700;
-  letter-spacing: 0.06em;
-}
 
 /* Motion: keep it subtle and independent from slide content. */
 .reveal .slides section.present .topbar {
