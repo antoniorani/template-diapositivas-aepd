@@ -48,6 +48,9 @@ Las clases son semánticas y reutilizables; no crees un componente JavaScript pa
 
 ## Speaker View
 
+La audiencia no ve numeración de diapositivas. Speaker View muestra `Diapositiva N / total` sobre la vista actual.
+
+
 Pulsa **S** para abrir la vista del presentador en una ventana independiente.
 
 Dentro de Speaker View:
